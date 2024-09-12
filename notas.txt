@@ -1,0 +1,7 @@
+Pagina de pruebas
+https://demoqa.com/
+https://testpages.herokuapp.com/styled/file-upload-test.html
+
+
+Ver elemento ocultos del DOM
+Ctrl + Shift + P

@@ -1,0 +1,17 @@
+Selector por ID:
+Sintaxis: #id
+Ejemplo: driver.findElement(By.cssSelector("#username")) selecciona el elemento con el ID “username”.
+Selector por Clase:
+Sintaxis: .class
+Ejemplo: driver.findElement(By.cssSelector(".login-button")) selecciona el elemento con la clase “login-button”.
+Selector por Atributo:
+Sintaxis: [attribute=value]
+Ejemplo: driver.findElement(By.cssSelector("input[type='text']")) selecciona todos los elementos input con el atributo type igual a “text”.
+Selector por Subcadena de Atributo:
+Empieza con: [attribute^=value]
+Termina con: [attribute$=value]
+Contiene: [attribute*=value]
+Ejemplo: driver.findElement(By.cssSelector("a[href^='https']")) selecciona todos los enlaces (a) cuyo atributo href empieza con “https”.
+Combinación de Selectores:
+Puedes combinar selectores para ser más específico.
+Ejemplo: driver.findElement(By.cssSelector("div#main .content")) selecciona los elementos con la clase “content” dentro del elemento con el ID “main”.

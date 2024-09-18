@@ -8,23 +8,24 @@ from selenium.common.exceptions import TimeoutException, InvalidArgumentExceptio
 tiempo = 10 #segundos
 driver = webdriver.Chrome()
 
-driver.get("https://testpages.herokuapp.com/styled/file-upload-test.html")
+driver.get("https://pixabay.com/es/")
 driver.maximize_window()
 #driver.execute_script("window.scrollBy(0, 300);")
 wait = WebDriverWait(driver, 10)
 
+#driver.execute_script("window.scrollBy(0, 300);")
+
+
 try:
-    wait.until(EC.presence_of_element_located(("css selector", "input#fileinput[name='filename']")))
-    btnBuscar = driver.find_element("css selector", "input#fileinput[name='filename']")
-    #btnBuscar.click()
-    btnBuscar.send_keys("C:\\Carpeta practicas\\PracticaBasicaPython\\PythonSelenium\\Imagenes\\pepsi.jpg")
-    btnUpload = driver.find_element("xpath", "//input[@type='submit' and @name='upload']")
-    btnUpload.click()
+    wait.until(EC.presence_of_element_located(("xpath", "//span[@class='label--Ngqjq' and text()='Descubre más']")))
+    buscar = driver.find_element("xpath", "//span[@class='label--Ngqjq' and text()='Descubre más']")
+    navegar = driver.execute_script("arguments[0].scrollIntoView();", buscar)
+
+    time.sleep(6)
 
 except TimeoutException as e:
     print("No se encontró el elemento, se lanza TimeoutException" + e.msg)
-except InvalidArgumentException as e:
-    print("Error en los argumentos: " + e.msg)
+
 
 
 finally:

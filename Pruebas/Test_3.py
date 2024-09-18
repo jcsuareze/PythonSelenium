@@ -25,12 +25,6 @@ time.sleep(2)
 
 driver.find_element("css selector", "button#submit.btn.btn-primary").click()
 
-
-
-
-
 time.sleep(2)
-
-
 
 driver.close()

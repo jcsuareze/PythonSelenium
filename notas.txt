@@ -2,6 +2,7 @@ Pagina de pruebas
 https://demoqa.com/
 https://testpages.herokuapp.com/styled/file-upload-test.html
 https://saucedemo.com/
+https://rahulshettyacademy.com/
 
 
 Ver elemento ocultos del DOM

@@ -7,7 +7,7 @@ from selenium import webdriver
 
 #driver es responsable de ejecutar las acciones en el navegador
 driver = webdriver.Chrome()
-driver.get("https://rahulshettyacademy.com/")
+driver.get("https://rahulshettyacademy.com/angularpractice")
 driver.maximize_window()
 print(driver.title)
 print(driver.current_url)

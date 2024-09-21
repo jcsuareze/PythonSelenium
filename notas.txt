@@ -2,7 +2,12 @@ Pagina de pruebas
 https://demoqa.com/
 https://testpages.herokuapp.com/styled/file-upload-test.html
 https://saucedemo.com/
-https://rahulshettyacademy.com/
+https://rahulshettyacademy.com/angularpractice
+https://rahulshettyacademy.com/client/auth/login
+(dentro de esta pagina hay 3 prohectos donde practicar)
+https://rahulshettyacademy.com -> Naveegar a practice projects
+
+
 
 
 Ver elemento ocultos del DOM

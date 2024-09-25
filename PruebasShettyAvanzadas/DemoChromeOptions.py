@@ -1,8 +1,5 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
 
 #con la clase ChromeOptions podemos configurar el navegador Chrome
 #En este caso se esta configurando para que se ejecute en modo incognito

@@ -2,7 +2,9 @@
 .idea/
 Varios/__pycache__/
 /PruebasShettyAvanzadas/screen.png
+PruebasPytestYReportes/__pycache__/
 PytestDemo/__pycache__/
 PytestDemo/screenshots/
 /Pruebas/__pycache__
 /Pruebas_Elementos/__pycache__
+/logFile.log

@@ -4,6 +4,7 @@ import pytest
 #Se debe definir el conftest para que el fixture tenga nivel de clase y tome estas pruebas
 #ejemplo de conf en confTest.py   @pytest.fixture(scope="class")
 
+'''
 @pytest.mark.usefixtures("setup")
 class TestExample:
 
@@ -18,3 +19,4 @@ class TestExample:
 
     def test_fixtureDemo4(self):
         print("Se ejecutan los pasos dentro del metodo fixtureDemo4")
+'''

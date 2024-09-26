@@ -30,7 +30,7 @@ def test_firstProgram():
     assert message == "Hi", "Test failed because strings do not match"
 
 @pytest.mark.smoke
-def test_SecondProgram(setUp):
+def test_SecondProgram():
     print("Se ejecuta la prueba con fixtures en conftest")
     a=4
     b=5

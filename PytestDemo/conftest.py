@@ -15,7 +15,7 @@ def setUp(setUp):
 #definimos nuestra fixture
 @pytest.fixture()
 def dataLoad():
-    print("Datos del usuario siendo creados...")
+    print("Datos del usuario siendo creados... Mensaje desde conftest.py")
     #vamos a crear una tupla  ( recordatorio:  las tuplas no se pueden modificar )
     return("Juan Carlos","Suárez", "juan.suarez@my.unitec.edu.mx")
 

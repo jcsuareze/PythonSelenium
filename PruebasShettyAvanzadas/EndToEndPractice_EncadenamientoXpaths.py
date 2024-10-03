@@ -10,8 +10,9 @@ driver.get("https://rahulshettyacademy.com/angularpractice/")
 driver.implicitly_wait(2)
 wait = WebDriverWait(driver, 10)
 
-
 driver.find_element(By.XPATH, "//a[contains(@href,'shop')]").click()
+
+
 products = driver.find_elements(By.XPATH, "//div[@class='card h-100']")
 
 for product in products:
